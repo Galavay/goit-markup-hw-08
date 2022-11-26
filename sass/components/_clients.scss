@@ -1,0 +1,29 @@
+.clients {
+    padding: 94px 0;
+}
+
+.clients-list {
+    display: flex;
+    gap: 30px;
+}
+
+.clients-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid currentColor;
+    color: var(--fill-svg-icon);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    color: var(--accent-color);
+}
+
+.cliens-icon {
+    fill: currentColor;
+}

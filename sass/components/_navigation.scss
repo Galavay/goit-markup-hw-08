@@ -1,0 +1,63 @@
+.nav__list {
+    gap: 50px;
+    display: flex;
+}
+
+.nav__list .link {
+    display: block;
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav__list :hover,
+.nav__list :focus,
+.nav__list .link.current {
+    color: var(--accent-color);
+}
+
+.map {
+    color: var(--primary-bg-color);
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.map:hover,
+.map:focus {
+    color: var (--accent-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-footer-mail {
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.nav-footer-mail:hover,
+.nav-footer-mail:focus {
+    color: var(--accent-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-footer-tel {
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.nav-footer-tel:hover,
+.nav-footer-tel:focus {
+    color: var(--accent-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address-footer {
+    margin-top: 20px;
+    font-style: normal;
+}
