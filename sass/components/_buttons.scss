@@ -1,8 +1,15 @@
 .button {
+  @media screen and (min-width: 768px) {
     justify-content: center;
-
     display: flex;
     gap: 8px;
+  }
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
 }
 
 .button-active {
@@ -27,7 +34,13 @@
 }
 
 .button.secondary {
-    margin-bottom: 50px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 40px;
+    }
+  
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+    }
     padding: 6px 22px;
     border: none;
 

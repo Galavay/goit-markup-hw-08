@@ -2,10 +2,16 @@
     padding-top: 0;
     display: flex;
     gap: 30px;
+    @media (max-width: 1199.98px) {
+            display: none;
+        }
 }
 
 .works {
     padding-top: 0;
+    @media (max-width: 1199.98px) {
+            display: none;
+        }
 }
 
 .wrapper {

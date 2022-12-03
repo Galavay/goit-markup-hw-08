@@ -1,9 +1,19 @@
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
+    @media screen and (max-width: 767px) {
+        margin-top: 30px;
+    }
 }
 
+.portfolio-list {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
 .card-link {
     text-decoration: none;
     color: inherit;
@@ -48,8 +58,10 @@
 }
 
 .portfolio-div {
+    @media screen and (min-width: 1200px) {
+        width: 370px;
+    }
     padding: 20px 24px;
-    width: 370px;
     border: 1px solid #eeeeee;
 }
 
