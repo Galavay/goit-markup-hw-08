@@ -33,8 +33,8 @@
   display: flex;
   flex-direction: column;
 
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   padding: 48px 40px;
   background-color: #FFFFFF;
   z-index: 999;
@@ -118,6 +118,12 @@
   letter-spacing: 0.02em;
   color: #2196F3;
   text-decoration: none;
+}
+
+.mobile-menu :hover,
+.mobile-menu :focus,
+.mobile-menu .link.current {
+  color: #2196F3;
 }
 
 .mobile-socials-item:not(:last-child) {

@@ -10,6 +10,7 @@
             align-items: baseline;
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-around;
         }
 
     @media screen and (min-width: 1200px) {
@@ -28,12 +29,8 @@
 }
 
 .footer-social {
-    @media screen and (min-width: 768px) {
-        margin-left: auto;
-    }
-
     @media screen and (min-width: 1200px) {
-    margin-left: 70px;
+        margin-left: 70px;
     }
 }
 
