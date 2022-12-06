@@ -19,6 +19,12 @@
     }
 }
 
+.footer-list {
+    @media screen and (max-width: 767px) {
+        margin-bottom: 60px;
+    }
+}
+
 .footer {
     background-color: var(--footer-bg-color);
     padding: 60px 0;
@@ -45,7 +51,6 @@
     list-style: none;
     gap: 10px;
     justify-content: center;
-    margin-bottom: 60px;
 }
 
 .social-link-footer {
@@ -80,5 +85,4 @@
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 20px;
-    margin-top: 60px;
 }
